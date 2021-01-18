@@ -1,6 +1,9 @@
 ## My attempt at [comma.ai speed challenge](https://github.com/commaai/speedchallenge)
 This repository is made for my personal purpose of attempting the [comma.ai speed challenge](https://github.com/commaai/speedchallenge). I am hoping to update this repository regularly in a form of a log.
 
+## Aim of the project
+Research and try to implement machine learning model to predict the speed of the car per frame from **test.mp4** based on the frames and speed pair from **train.mp4** and **train.txt**.
+
 ## Links to notebook
 - [Preprocess Notebook](https://colab.research.google.com/drive/16wj_3dMqNw1uozfQm41J7DylUjE-jezN?usp=sharing)
 - [Model and Training Notebook](https://colab.research.google.com/drive/1uzaoiTZWCm2XaAtQCR4R0mIcGXrZ8oQE?usp=sharing)
