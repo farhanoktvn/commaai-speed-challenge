@@ -15,6 +15,7 @@ This repository is made for my personal purpose of attempting the [comma.ai spee
 ## Logs
 - [The beginning](#2021/01/10---Initial-commit)
 - [Last stretch of first attempt](#2021/01/16---Created-Nvidia-model-on-PyTorch)
+- [5 Epoch Test](#2021/01/18---Tested-the-Model-with-5-Epochs)
 
 #### 2021/01/10 - Initial commit
 Created an initial Google Colab notebook for this project and preprocessed the videos into individual frames.
@@ -27,3 +28,6 @@ Found a GitHub repo that tried to solve the comma.ai problem. Based on that repo
 
 #### 2021/01/16 - Created Nvidia model on PyTorch
 Finally got the time to create the model in PyTorch. Top priority would be putting it all together to feed the model. The preprocess part is not particularly clean, need to put that into mental list of technical debt. Might end up using data loader, since I found a helpful page to take care of that from Stanford.
+
+#### 2021/01/18 - Tested the Model with 5 Epochs
+Using PyTorch DataLoader for the dataset turned out easier than expected. Stumbled upon some error regarding the tensor dimension and datatype. Currently waiting for the training to finish with 5 epochs. One epoch takes approximately 8-15 minutes with CUDA, going to watch The Departed while waiting for the model to finish. I am planning to do 25 epochs for the next training. However, due to Colab needs to be open at all times and the time it takes to finish, I might do it in batches.
